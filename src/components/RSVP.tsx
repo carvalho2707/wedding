@@ -3,9 +3,9 @@ import { useTranslation } from 'react-i18next'
 
 const GOOGLE_SCRIPT_URL = import.meta.env.VITE_GOOGLE_SCRIPT_URL || ''
 
-interface Guest {
+interface Child {
   name: string
-  age: string
+  ageGroup: string
 }
 
 export default function RSVP() {
@@ -16,21 +16,23 @@ export default function RSVP() {
     dietary: '',
   })
   const [songs, setSongs] = useState<string[]>([''])
-  const [guests, setGuests] = useState<Guest[]>([])
+  const [bringingPartner, setBringingPartner] = useState(false)
+  const [partnerName, setPartnerName] = useState('')
+  const [children, setChildren] = useState<Child[]>([])
   const [status, setStatus] = useState<'idle' | 'submitting' | 'success' | 'error'>('idle')
 
-  const addGuest = () => {
-    setGuests([...guests, { name: '', age: '' }])
+  const addChild = () => {
+    setChildren([...children, { name: '', ageGroup: '' }])
   }
 
-  const removeGuest = (index: number) => {
-    setGuests(guests.filter((_, i) => i !== index))
+  const removeChild = (index: number) => {
+    setChildren(children.filter((_, i) => i !== index))
   }
 
-  const updateGuest = (index: number, field: keyof Guest, value: string) => {
-    const updated = [...guests]
+  const updateChild = (index: number, field: keyof Child, value: string) => {
+    const updated = [...children]
     updated[index][field] = value
-    setGuests(updated)
+    setChildren(updated)
   }
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -40,11 +42,13 @@ export default function RSVP() {
 
     setStatus('submitting')
 
+    const validChildren = children.filter(c => c.name.trim() !== '')
     const submitData = {
       ...formData,
       songs: songs.filter(s => s.trim() !== ''),
-      guests: guests.filter(g => g.name.trim() !== ''),
-      guestCount: guests.filter(g => g.name.trim() !== '').length + 1,
+      partner: bringingPartner ? partnerName : null,
+      children: validChildren,
+      guestCount: 1 + (bringingPartner && partnerName.trim() ? 1 : 0) + validChildren.length,
     }
 
     try {
@@ -180,51 +184,77 @@ export default function RSVP() {
               </div>
             </div>
 
-            {/* Additional Guests */}
+            {/* Partner */}
+            <div>
+              <label className="flex items-center gap-3 cursor-pointer">
+                <input
+                  type="checkbox"
+                  checked={bringingPartner}
+                  onChange={(e) => {
+                    setBringingPartner(e.target.checked)
+                    if (!e.target.checked) setPartnerName('')
+                  }}
+                  className="w-4 h-4 text-sage-500 border-sage-300 rounded focus:ring-sage-400"
+                />
+                <span className="text-sage-600 text-sm">{t('rsvp.bringingPartner')}</span>
+              </label>
+              {bringingPartner && (
+                <input
+                  type="text"
+                  value={partnerName}
+                  onChange={(e) => setPartnerName(e.target.value)}
+                  placeholder={t('rsvp.partnerNamePlaceholder')}
+                  className="mt-3 w-full px-4 py-2 border border-sage-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-sage-400 bg-white"
+                />
+              )}
+            </div>
+
+            {/* Children */}
             <div>
               <div className="flex items-center justify-between mb-3">
                 <label className="block text-sage-600 text-sm">
-                  {t('rsvp.additionalGuests')}
+                  {t('rsvp.children')}
                 </label>
                 <button
                   type="button"
-                  onClick={addGuest}
+                  onClick={addChild}
                   className="text-sage-500 hover:text-sage-700 text-sm font-medium flex items-center gap-1"
                 >
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" />
                   </svg>
-                  {t('rsvp.addGuest')}
+                  {t('rsvp.addChild')}
                 </button>
               </div>
 
-              {guests.length > 0 && (
+              {children.length > 0 && (
                 <div className="space-y-3">
-                  {guests.map((guest, index) => (
+                  {children.map((child, index) => (
                     <div key={index} className="flex gap-2 items-start">
                       <div className="flex-1">
                         <input
                           type="text"
-                          value={guest.name}
-                          onChange={(e) => updateGuest(index, 'name', e.target.value)}
-                          placeholder={t('rsvp.guestNamePlaceholder')}
+                          value={child.name}
+                          onChange={(e) => updateChild(index, 'name', e.target.value)}
+                          placeholder={t('rsvp.childNamePlaceholder')}
                           className="w-full px-3 py-2 border border-sage-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-sage-400 bg-white text-sm"
                         />
                       </div>
-                      <div className="w-20">
-                        <input
-                          type="number"
-                          min="0"
-                          max="120"
-                          value={guest.age}
-                          onChange={(e) => updateGuest(index, 'age', e.target.value)}
-                          placeholder={t('rsvp.age')}
+                      <div className="w-32">
+                        <select
+                          value={child.ageGroup}
+                          onChange={(e) => updateChild(index, 'ageGroup', e.target.value)}
                           className="w-full px-3 py-2 border border-sage-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-sage-400 bg-white text-sm"
-                        />
+                        >
+                          <option value="">{t('rsvp.age')}</option>
+                          <option value="0-3">{t('rsvp.age0to3')}</option>
+                          <option value="4-10">{t('rsvp.age4to10')}</option>
+                          <option value="11+">{t('rsvp.age11plus')}</option>
+                        </select>
                       </div>
                       <button
                         type="button"
-                        onClick={() => removeGuest(index)}
+                        onClick={() => removeChild(index)}
                         className="p-2 text-sage-400 hover:text-red-500 transition-colors"
                       >
                         <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
