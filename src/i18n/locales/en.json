@@ -1,0 +1,96 @@
+{
+  "nav": {
+    "rsvp": "RSVP",
+    "timeline": "Timeline",
+    "accommodation": "Accommodation",
+    "faq": "FAQ",
+    "contacts": "Contacts"
+  },
+  "hero": {
+    "invitation": "You are invited to celebrate the wedding of",
+    "tagline": "And so the adventure begins",
+    "rsvpButton": "RSVP"
+  },
+  "info": {
+    "date": "Date",
+    "time": "Time",
+    "location": "Location",
+    "dateValue": "June 13, 2026",
+    "timeValue": "Starting at 11:30 AM"
+  },
+  "timeline": {
+    "title": "Wedding Timeline",
+    "ceremony": "Ceremony",
+    "cocktail": "Cocktail Hour",
+    "lunch": "Lunch & Speeches",
+    "dancing": "Cake & Dancing"
+  },
+  "countdown": {
+    "title": "Counting down to our special day",
+    "days": "Days",
+    "hours": "Hours",
+    "minutes": "Minutes",
+    "seconds": "Seconds"
+  },
+  "rsvp": {
+    "title": "Are you coming?",
+    "subtitle": "Kindly reply by March 1st, 2026",
+    "name": "Your Name",
+    "namePlaceholder": "First and last name",
+    "attending": "Will you attend?",
+    "yes": "Yes, I'll be there!",
+    "no": "Sorry, I can't make it",
+    "song": "Song Requests",
+    "additionalGuests": "Additional Guests",
+    "addGuest": "Add guest",
+    "guestNamePlaceholder": "Guest name",
+    "age": "Age",
+    "songPlaceholder": "Song request for the party",
+    "addSong": "Add song",
+    "dietary": "Dietary Restrictions",
+    "dietaryPlaceholder": "Any allergies or dietary requirements?",
+    "submit": "Send RSVP",
+    "submitting": "Sending...",
+    "success": "Thank you! Your RSVP has been received.",
+    "error": "Something went wrong. Please try again.",
+    "alreadySubmitted": "You've already submitted your RSVP."
+  },
+  "accommodation": {
+    "title": "Accommodation",
+    "subtitle": "Recommended hotels near the venue",
+    "specialRate": "Special rate available",
+    "bookNow": "Book Now",
+    "comingSoon": "Hotel recommendations coming soon..."
+  },
+  "map": {
+    "title": "Venue Location",
+    "venue": "Quinta do Joinal",
+    "directions": "Get Directions"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "q1": "What should I wear?",
+    "a1": "We recommend smart casual attire. Feel comfortable and dress for a summer celebration.",
+    "q2": "Can I bring a plus one?",
+    "a2": "Please refer to your invitation for guest details. If you have questions, contact us directly.",
+    "q3": "Is there parking available?",
+    "a3": "Yes, there is free parking available at the venue.",
+    "q4": "What about gifts?",
+    "a4": "Your presence is the greatest gift! If you wish to give something, a contribution to our honeymoon fund would be appreciated.",
+    "q5": "Will there be vegetarian/vegan options?",
+    "a5": "Yes! Please let us know your dietary requirements in the RSVP form.",
+    "q6": "Is the venue child-friendly?",
+    "a6": "While we love your little ones, this celebration is adults-only. We hope you understand."
+  },
+  "contacts": {
+    "title": "Questions?",
+    "subtitle": "Reach out to our wedding party",
+    "bestMan": "Best Man",
+    "bridesmaid": "Maid of Honor",
+    "call": "Call",
+    "whatsapp": "WhatsApp"
+  },
+  "footer": {
+    "message": "Looking forward to celebrating with you!"
+  }
+}

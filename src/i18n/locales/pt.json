@@ -1,0 +1,96 @@
+{
+  "nav": {
+    "rsvp": "RSVP",
+    "timeline": "Programa",
+    "accommodation": "Alojamento",
+    "faq": "FAQ",
+    "contacts": "Contactos"
+  },
+  "hero": {
+    "invitation": "Estão convidados para celebrar o casamento de",
+    "tagline": "E assim começa a aventura",
+    "rsvpButton": "RSVP"
+  },
+  "info": {
+    "date": "Data",
+    "time": "Hora",
+    "location": "Local",
+    "dateValue": "13 de Junho, 2026",
+    "timeValue": "Início às 11:30"
+  },
+  "timeline": {
+    "title": "Programa do Casamento",
+    "ceremony": "Cerimónia",
+    "cocktail": "Cocktail",
+    "lunch": "Almoço e Discursos",
+    "dancing": "Bolo e Dança"
+  },
+  "countdown": {
+    "title": "Contagem decrescente para o nosso dia especial",
+    "days": "Dias",
+    "hours": "Horas",
+    "minutes": "Minutos",
+    "seconds": "Segundos"
+  },
+  "rsvp": {
+    "title": "Vens?",
+    "subtitle": "Por favor responde até 1 de Março, 2026",
+    "name": "O teu Nome",
+    "namePlaceholder": "Primeiro e último nome",
+    "attending": "Vais estar presente?",
+    "yes": "Sim, estarei lá!",
+    "no": "Desculpa, não posso ir",
+    "song": "Músicas",
+    "additionalGuests": "Convidados Adicionais",
+    "addGuest": "Adicionar convidado",
+    "guestNamePlaceholder": "Nome do convidado",
+    "age": "Idade",
+    "songPlaceholder": "Música para a festa",
+    "addSong": "Adicionar música",
+    "dietary": "Restrições Alimentares",
+    "dietaryPlaceholder": "Alguma alergia ou requisito alimentar?",
+    "submit": "Enviar RSVP",
+    "submitting": "A enviar...",
+    "success": "Obrigado! A tua resposta foi recebida.",
+    "error": "Algo correu mal. Por favor tenta novamente.",
+    "alreadySubmitted": "Já enviaste a tua resposta."
+  },
+  "accommodation": {
+    "title": "Alojamento",
+    "subtitle": "Hotéis recomendados perto do local",
+    "specialRate": "Tarifa especial disponível",
+    "bookNow": "Reservar",
+    "comingSoon": "Recomendações de hotéis em breve..."
+  },
+  "map": {
+    "title": "Localização",
+    "venue": "Quinta do Joinal",
+    "directions": "Como Chegar"
+  },
+  "faq": {
+    "title": "Perguntas Frequentes",
+    "q1": "O que devo vestir?",
+    "a1": "Recomendamos traje casual elegante. Sente-te confortável e veste-te para uma celebração de verão.",
+    "q2": "Posso levar acompanhante?",
+    "a2": "Por favor consulta os detalhes do teu convite. Se tiveres dúvidas, contacta-nos diretamente.",
+    "q3": "Há estacionamento disponível?",
+    "a3": "Sim, há estacionamento gratuito disponível no local.",
+    "q4": "E quanto aos presentes?",
+    "a4": "A tua presença é o melhor presente! Se quiseres dar algo, agradecemos uma contribuição para a nossa lua de mel.",
+    "q5": "Haverá opções vegetarianas/veganas?",
+    "a5": "Sim! Por favor indica-nos os teus requisitos alimentares no formulário RSVP.",
+    "q6": "O local é adequado para crianças?",
+    "a6": "Embora adoremos os mais pequenos, esta celebração é apenas para adultos. Esperamos que compreendam."
+  },
+  "contacts": {
+    "title": "Dúvidas?",
+    "subtitle": "Contacta a nossa equipa",
+    "bestMan": "Padrinho",
+    "bridesmaid": "Madrinha",
+    "call": "Ligar",
+    "whatsapp": "WhatsApp"
+  },
+  "footer": {
+    "message": "Estamos ansiosos por celebrar convosco!"
+  }
+}
