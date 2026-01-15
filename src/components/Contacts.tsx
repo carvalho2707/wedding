@@ -14,9 +14,19 @@ const contacts: Contact[] = [
     phone: '+351 912 469 793',
   },
   {
+    role: 'bestMan',
+    name: 'Francisco Montez',
+    phone: '+351 913 072 520',
+  },
+  {
     role: 'bridesmaid',
-    name: 'Kim Laura',
+    name: 'Kim-Laura',
     phone: '+49 151 52321675',
+  },
+  {
+    role: 'bridesmaid',
+    name: 'Julia ',
+    phone: '+49 176 28538222',
   },
 ]
 
