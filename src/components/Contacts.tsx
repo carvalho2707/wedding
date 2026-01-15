@@ -25,7 +25,7 @@ const contacts: Contact[] = [
   },
   {
     role: 'bridesmaid',
-    name: 'Julia ',
+    name: 'Julia Sontag',
     phone: '+49 176 28538222',
   },
 ]
