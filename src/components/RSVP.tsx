@@ -248,8 +248,8 @@ export default function RSVP() {
                         >
                           <option value="">{t('rsvp.age')}</option>
                           <option value="0-3">{t('rsvp.age0to3')}</option>
-                          <option value="4-10">{t('rsvp.age4to10')}</option>
-                          <option value="11+">{t('rsvp.age11plus')}</option>
+                          <option value="4-9">{t('rsvp.age4to9')}</option>
+                          <option value="10+">{t('rsvp.age10plus')}</option>
                         </select>
                       </div>
                       <button
