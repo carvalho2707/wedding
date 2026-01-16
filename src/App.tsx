@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="min-h-screen bg-cream-50 floral-bg">
       <Navigation />
-      <main className="relative z-10">
+      <main className="relative z-10 animate-fade-in-up">
         <Hero />
         <InfoBar />
         <section id="timeline">
