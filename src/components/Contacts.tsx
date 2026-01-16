@@ -10,11 +10,6 @@ interface Contact {
 const contacts: Contact[] = [
   {
     role: 'bestMan',
-    name: 'João Pecorelli',
-    phone: '+351 912 469 793',
-  },
-  {
-    role: 'bestMan',
     name: 'Francisco Montez',
     phone: '+351 913 072 520',
   },
@@ -22,11 +17,6 @@ const contacts: Contact[] = [
     role: 'bridesmaid',
     name: 'Kim-Laura',
     phone: '+49 151 52321675',
-  },
-  {
-    role: 'bridesmaid',
-    name: 'Julia Sontag',
-    phone: '+49 176 28538222',
   },
 ]
 
