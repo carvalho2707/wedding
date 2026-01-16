@@ -14,14 +14,14 @@
     "time": "Hora",
     "location": "Local",
     "dateValue": "13 de Junho, 2026",
-    "timeValue": "Início às 11:30"
+    "timeValue": "Início às 12:00"
   },
   "timeline": {
     "title": "Programa do Casamento",
     "cocktail": "Cocktail",
     "ceremony": "Cerimónia",
     "lunch": "Almoço",
-    "dancing": "Dança",
+    "dancing": "Festa & Dança",
     "buffet": "Buffet",
     "cake": "Bolo",
     "midnightSnack": "Ceia"
@@ -35,7 +35,7 @@
   },
   "rsvp": {
     "title": "Vens?",
-    "subtitle": "Por favor responde até 1 de Março, 2026",
+    "subtitle": "Por favor responde até 1 de Abril, 2026",
     "name": "O teu Nome",
     "namePlaceholder": "Primeiro e último nome",
     "attending": "Vais estar presente?",
@@ -75,13 +75,11 @@
     "q3": "O casamento será interior ou exterior?",
     "a3": "Ambos. Vamos acompanhar o tempo de perto, mas preparem-se para passar tempo ao ar livre.",
     "q4": "Até quando tenho de confirmar presença?",
-    "a4": "13 de Abril",
-    "q5": "Dúvidas ou surpresas?",
-    "a5": "Se tiveres alguma pergunta que prefiras não nos fazer diretamente—ou se simplesmente preferires uma alternativa—és muito bem-vindo a contactar as nossas madrinhas e padrinho. Eles terão todo o gosto em ajudar e conhecem todos os detalhes importantes."
+    "a4": "1 de Abril"
   },
   "contacts": {
     "title": "Dúvidas?",
-    "subtitle": "Contacta a nossa equipa",
+    "subtitle": "Se tiveres alguma pergunta que prefiras não nos fazer diretamente—ou se simplesmente preferires uma alternativa—és muito bem-vindo a contactar as nossas madrinhas e padrinho. Eles terão todo o gosto em ajudar e conhecem todos os detalhes importantes.",
     "bestMan": "Padrinho",
     "bridesmaid": "Madrinha",
     "call": "Ligar",

@@ -14,17 +14,17 @@
     "time": "Hora",
     "location": "Lugar",
     "dateValue": "13 de Junio, 2026",
-    "timeValue": "Comienza a las 11:30"
+    "timeValue": "Comienza a las 12:00"
   },
   "timeline": {
     "title": "Programa de la Boda",
     "cocktail": "Cóctel",
     "ceremony": "Ceremonia",
-    "lunch": "Almuerzo",
-    "dancing": "Baile",
+    "lunch": "Comida",
+    "dancing": "Fiesta & Bailoteo",
     "buffet": "Buffet",
     "cake": "Tarta",
-    "midnightSnack": "Cena de Medianoche"
+    "midnightSnack": "Recena"
   },
   "countdown": {
     "title": "Cuenta atrás para nuestro día especial",
@@ -35,7 +35,7 @@
   },
   "rsvp": {
     "title": "¿Vendrás?",
-    "subtitle": "Por favor responde antes del 1 de Marzo, 2026",
+    "subtitle": "Por favor responde antes del 1 de Abril, 2026",
     "name": "Tu Nombre",
     "namePlaceholder": "Nombre y apellido",
     "attending": "¿Asistirás?",
@@ -75,13 +75,11 @@
     "q3": "¿La boda será en interior o exterior?",
     "a3": "Ambos. Estaremos atentos al tiempo, pero preparaos para pasar tiempo al aire libre.",
     "q4": "¿Hasta cuándo tengo que confirmar asistencia?",
-    "a4": "13 de Abril",
-    "q5": "¿Preguntas o sorpresas?",
-    "a5": "Si tienes alguna pregunta que prefieras no hacernos directamente—o si simplemente prefieres una alternativa—eres muy bienvenido a contactar con nuestras damas de honor y padrino. Estarán encantados de ayudar y conocen todos los detalles importantes."
+    "a4": "1 de Abril"
   },
   "contacts": {
     "title": "¿Preguntas?",
-    "subtitle": "Contacta con nuestro equipo nupcial",
+    "subtitle": "Si tienes alguna pregunta que prefieras no hacernos directamente—o si simplemente prefieres una alternativa—eres muy bienvenido a contactar con nuestras damas de honor y padrino. Estarán encantados de ayudar y conocen todos los detalles importantes.",
     "bestMan": "Padrino",
     "bridesmaid": "Dama de Honor",
     "call": "Llamar",

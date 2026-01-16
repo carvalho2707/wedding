@@ -14,14 +14,14 @@
     "time": "Time",
     "location": "Location",
     "dateValue": "June 13, 2026",
-    "timeValue": "Starting at 11:30 AM"
+    "timeValue": "Starting at 12:00"
   },
   "timeline": {
     "title": "Wedding Timeline",
     "cocktail": "Cocktail",
     "ceremony": "Ceremony",
     "lunch": "Lunch",
-    "dancing": "Dancing",
+    "dancing": "Party & Dancing",
     "buffet": "Buffet",
     "cake": "Cake",
     "midnightSnack": "Midnight Snack"
@@ -35,7 +35,7 @@
   },
   "rsvp": {
     "title": "Are you coming?",
-    "subtitle": "Kindly reply by March 1st, 2026",
+    "subtitle": "Kindly reply by April 1st, 2026",
     "name": "Your Name",
     "namePlaceholder": "First and last name",
     "attending": "Will you attend?",
@@ -75,13 +75,11 @@
     "q3": "Will the wedding be indoors or outdoors?",
     "a3": "Both. We will watch the weather closely, but prepare to spend time outside.",
     "q4": "By when do I need to RSVP?",
-    "a4": "13th April",
-    "q5": "Questions or surprises?",
-    "a5": "If you have any questions you'd rather not ask us directly—or if you simply prefer an alternative—you're very welcome to reach out to our bridesmaids and best man. They're happy to help and know all the important details."
+    "a4": "1st April"
   },
   "contacts": {
     "title": "Questions?",
-    "subtitle": "Reach out to our wedding party",
+    "subtitle": "If you have any questions you'd rather not ask us directly—or if you simply prefer an alternative—you're very welcome to reach out to our bridesmaids and best man. They're happy to help and know all the important details.",
     "bestMan": "Best Man",
     "bridesmaid": "Maid of Honor",
     "call": "Call",

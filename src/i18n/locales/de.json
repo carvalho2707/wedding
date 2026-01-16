@@ -14,14 +14,14 @@
     "time": "Uhrzeit",
     "location": "Ort",
     "dateValue": "13. Juni 2026",
-    "timeValue": "Beginn um 11:30 Uhr"
+    "timeValue": "Beginn um 12:00 Uhr"
   },
   "timeline": {
     "title": "Hochzeitsablauf",
-    "cocktail": "Sektempfang",
+    "cocktail": "Cocktailempfang",
     "ceremony": "Trauung",
     "lunch": "Mittagessen",
-    "dancing": "Tanz",
+    "dancing": "Party & Tanzen",
     "buffet": "Buffet",
     "cake": "Torte",
     "midnightSnack": "Mitternachtssnack"
@@ -35,7 +35,7 @@
   },
   "rsvp": {
     "title": "Kommst du?",
-    "subtitle": "Bitte antworte bis zum 1. März 2026",
+    "subtitle": "Bitte antworte bis zum 1. April 2026",
     "name": "Dein Name",
     "namePlaceholder": "Vor- und Nachname",
     "attending": "Wirst du dabei sein?",
@@ -75,13 +75,11 @@
     "q3": "Findet die Hochzeit drinnen oder draußen statt?",
     "a3": "Beides. Wir werden das Wetter genau beobachten, aber bereitet euch darauf vor, Zeit draußen zu verbringen.",
     "q4": "Bis wann muss ich zusagen?",
-    "a4": "13. April",
-    "q5": "Fragen oder Überraschungen?",
-    "a5": "Wenn du Fragen hast, die du uns lieber nicht direkt stellen möchtest—oder wenn du einfach eine Alternative bevorzugst—kannst du dich gerne an unsere Trauzeuginnen und Trauzeugen wenden. Sie helfen gerne und kennen alle wichtigen Details."
+    "a4": "1. April"
   },
   "contacts": {
     "title": "Fragen?",
-    "subtitle": "Kontaktiere unser Hochzeitsteam",
+    "subtitle": "Wenn du Fragen hast, die du uns lieber nicht direkt stellen möchtest—oder wenn du einfach eine Alternative bevorzugst—kannst du dich gerne an unsere Trauzeuginnen und Trauzeugen wenden. Sie helfen gerne und kennen alle wichtigen Details.",
     "bestMan": "Trauzeuge",
     "bridesmaid": "Trauzeugin",
     "call": "Anrufen",
