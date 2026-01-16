@@ -24,7 +24,7 @@ export default function Timeline() {
           {/* Vertical line */}
           <div className="absolute left-1/2 -translate-x-1/2 top-0 bottom-0 w-px bg-sage-300" />
 
-          <div className="flex flex-col gap-0">
+          <div className="flex flex-col -space-y-3.5">
             {events.map((event, index) => {
               const isLeft = index % 2 === 0
 
