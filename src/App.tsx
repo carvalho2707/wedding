@@ -4,7 +4,6 @@ import InfoBar from './components/InfoBar'
 import Timeline from './components/Timeline'
 import Countdown from './components/Countdown'
 import RSVP from './components/RSVP'
-import Accommodation from './components/Accommodation'
 import Map from './components/Map'
 import FAQ from './components/FAQ'
 import Contacts from './components/Contacts'
@@ -23,9 +22,6 @@ function App() {
         <Countdown />
         <section id="rsvp">
           <RSVP />
-        </section>
-        <section id="accommodation">
-          <Accommodation />
         </section>
         <section id="map">
           <Map />

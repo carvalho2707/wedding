@@ -9,7 +9,7 @@ export default function Hero() {
         <div className="grid md:grid-cols-3 gap-8 items-center">
           {/* Left Photo */}
           <div className="hidden md:flex justify-end">
-            <div className="photo-frame relative w-64 h-80 lg:w-72 lg:h-96 bg-white p-2 shadow-lg -rotate-6 overflow-hidden">
+            <div className="photo-frame relative w-64 h-80 lg:w-80 lg:h-[26rem] xl:w-96 xl:h-[30rem] bg-white p-2 shadow-lg -rotate-6 overflow-hidden">
               <img
                 src="/images/photo1.jpg"
                 alt="Nina & Tiago"
@@ -28,18 +28,15 @@ export default function Hero() {
             </h1>
             <a
               href="#rsvp"
-              className="inline-block bg-sage-500 hover:bg-sage-600 text-white px-8 py-3 rounded-full text-sm font-medium transition-colors mb-6"
+              className="inline-block bg-sage-500 hover:bg-sage-600 text-white px-8 py-3 rounded-full text-sm font-medium transition-colors"
             >
               {t('hero.rsvpButton')} &rarr;
             </a>
-            <p className="text-sage-400 text-sm italic">
-              {t('hero.tagline')}
-            </p>
           </div>
 
           {/* Right Photo */}
           <div className="hidden md:flex justify-start">
-            <div className="photo-frame relative w-64 h-80 lg:w-72 lg:h-96 bg-white p-2 shadow-lg rotate-6 overflow-hidden">
+            <div className="photo-frame relative w-64 h-80 lg:w-80 lg:h-[26rem] xl:w-96 xl:h-[30rem] bg-white p-2 shadow-lg rotate-6 overflow-hidden">
               <img
                 src="/images/photo2.jpg"
                 alt="Nina & Tiago"

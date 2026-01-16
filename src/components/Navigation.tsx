@@ -9,7 +9,6 @@ export default function Navigation() {
   const navItems = [
     { href: '#rsvp', label: t('nav.rsvp') },
     { href: '#timeline', label: t('nav.timeline') },
-    { href: '#accommodation', label: t('nav.accommodation') },
     { href: '#faq', label: t('nav.faq') },
     { href: '#contacts', label: t('nav.contacts') },
   ]

@@ -2,13 +2,11 @@
   "nav": {
     "rsvp": "RSVP",
     "timeline": "Programa",
-    "accommodation": "Alojamiento",
     "faq": "Preguntas",
     "contacts": "Contacto"
   },
   "hero": {
     "invitation": "Estáis invitados a celebrar la boda de",
-    "tagline": "Y así comienza la aventura",
     "rsvpButton": "RSVP"
   },
   "info": {
@@ -20,10 +18,13 @@
   },
   "timeline": {
     "title": "Programa de la Boda",
-    "ceremony": "Ceremonia",
     "cocktail": "Cóctel",
-    "lunch": "Almuerzo y Discursos",
-    "dancing": "Tarta y Baile"
+    "ceremony": "Ceremonia",
+    "lunch": "Almuerzo",
+    "dancing": "Baile",
+    "buffet": "Buffet",
+    "cake": "Tarta",
+    "midnightSnack": "Cena de Medianoche"
   },
   "countdown": {
     "title": "Cuenta atrás para nuestro día especial",
@@ -60,13 +61,6 @@
     "error": "Algo salió mal. Por favor, inténtalo de nuevo.",
     "alreadySubmitted": "Ya has enviado tu respuesta."
   },
-  "accommodation": {
-    "title": "Alojamiento",
-    "subtitle": "Hoteles recomendados cerca del lugar",
-    "specialRate": "Tarifa especial disponible",
-    "bookNow": "Reservar",
-    "comingSoon": "Recomendaciones de hoteles próximamente..."
-  },
   "map": {
     "title": "Ubicación del Lugar",
     "venue": "Quinta do Joinal",
@@ -75,15 +69,15 @@
   "faq": {
     "title": "Preguntas Frecuentes",
     "q1": "¿Qué debo vestir?",
-    "a1": "Recomendamos vestimenta elegante casual. Siéntete cómodo y vístete para una celebración de verano.",
+    "a1": "Nos encantaría ver a todos elegantes y listos para celebrar con nosotros. Pensad en algo elegante y festivo—pero lo más importante, sed vosotros mismos. No hay código de vestimenta oficial ni esquema de colores, así que sentíos libres de llevar lo que os haga sentir seguros y cómodos. Si os encantan los colores atrevidos, este es absolutamente vuestro momento—estaríamos encantados de tener una celebración colorida y alegre llena de personalidad.",
     "q2": "¿Puedo llevar acompañante?",
-    "a2": "Por favor, consulta los detalles de tu invitación. Si tienes preguntas, contáctanos directamente.",
-    "q3": "¿Hay aparcamiento disponible?",
-    "a3": "Sí, hay aparcamiento gratuito disponible en el lugar.",
-    "q4": "¿Qué hay de los regalos?",
-    "a4": "¡Tu presencia es el mejor regalo! Si deseas dar algo, apreciaríamos una contribución a nuestra luna de miel.",
-    "q5": "¿Habrá opciones vegetarianas/veganas?",
-    "a5": "¡Sí! Por favor, indícanos tus requisitos dietéticos en el formulario RSVP."
+    "a2": "Por supuesto. Las parejas son muy bienvenidas, y los niños también. Solo os pedimos que incluyáis a todos los asistentes cuando completéis el RSVP, para que podamos planificar adecuadamente.",
+    "q3": "¿La boda será en interior o exterior?",
+    "a3": "Ambos. Estaremos atentos al tiempo, pero preparaos para pasar tiempo al aire libre.",
+    "q4": "¿Hasta cuándo tengo que confirmar asistencia?",
+    "a4": "13 de Abril",
+    "q5": "¿Preguntas o sorpresas?",
+    "a5": "Si tienes alguna pregunta que prefieras no hacernos directamente—o si simplemente prefieres una alternativa—eres muy bienvenido a contactar con nuestras damas de honor y padrino. Estarán encantados de ayudar y conocen todos los detalles importantes."
   },
   "contacts": {
     "title": "¿Preguntas?",

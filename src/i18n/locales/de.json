@@ -2,13 +2,11 @@
   "nav": {
     "rsvp": "RSVP",
     "timeline": "Ablauf",
-    "accommodation": "Unterkunft",
     "faq": "FAQ",
     "contacts": "Kontakt"
   },
   "hero": {
     "invitation": "Ihr seid herzlich eingeladen zur Hochzeit von",
-    "tagline": "Und so beginnt das Abenteuer",
     "rsvpButton": "RSVP"
   },
   "info": {
@@ -20,10 +18,13 @@
   },
   "timeline": {
     "title": "Hochzeitsablauf",
-    "ceremony": "Trauung",
     "cocktail": "Sektempfang",
-    "lunch": "Mittagessen & Reden",
-    "dancing": "Torte & Tanz"
+    "ceremony": "Trauung",
+    "lunch": "Mittagessen",
+    "dancing": "Tanz",
+    "buffet": "Buffet",
+    "cake": "Torte",
+    "midnightSnack": "Mitternachtssnack"
   },
   "countdown": {
     "title": "Countdown bis zu unserem besonderen Tag",
@@ -60,13 +61,6 @@
     "error": "Etwas ist schiefgelaufen. Bitte versuche es erneut.",
     "alreadySubmitted": "Du hast bereits geantwortet."
   },
-  "accommodation": {
-    "title": "Unterkunft",
-    "subtitle": "Empfohlene Hotels in der Nähe",
-    "specialRate": "Sonderpreis verfügbar",
-    "bookNow": "Jetzt buchen",
-    "comingSoon": "Hotelempfehlungen folgen..."
-  },
   "map": {
     "title": "Veranstaltungsort",
     "venue": "Quinta do Joinal",
@@ -75,15 +69,15 @@
   "faq": {
     "title": "Häufig gestellte Fragen",
     "q1": "Was soll ich anziehen?",
-    "a1": "Wir empfehlen elegante Freizeitkleidung. Fühle dich wohl und kleide dich für eine Sommerfeier.",
+    "a1": "Wir würden uns freuen, alle schick gekleidet und bereit zum Feiern zu sehen. Denkt elegant und festlich—aber vor allem: Seid ihr selbst. Es gibt keinen offiziellen Dresscode oder Farbschema, also tragt, was euch selbstbewusst und wohl fühlen lässt. Wenn ihr kräftige Farben liebt, ist dies absolut euer Moment—wir würden uns über eine farbenfrohe, fröhliche Feier voller Persönlichkeit freuen.",
     "q2": "Kann ich jemanden mitbringen?",
-    "a2": "Bitte beachte die Details auf deiner Einladung. Bei Fragen kontaktiere uns direkt.",
-    "q3": "Gibt es Parkplätze?",
-    "a3": "Ja, kostenlose Parkplätze sind am Veranstaltungsort verfügbar.",
-    "q4": "Was ist mit Geschenken?",
-    "a4": "Eure Anwesenheit ist das größte Geschenk! Wenn ihr etwas schenken möchtet, freuen wir uns über einen Beitrag zu unserer Hochzeitsreise.",
-    "q5": "Gibt es vegetarische/vegane Optionen?",
-    "a5": "Ja! Bitte teile uns deine Ernährungsanforderungen im RSVP-Formular mit."
+    "a2": "Absolut. Partner sind sehr willkommen, und Kinder auch. Wir bitten nur darum, dass ihr alle Teilnehmenden bei eurer RSVP-Anmeldung angebt, damit wir entsprechend planen können.",
+    "q3": "Findet die Hochzeit drinnen oder draußen statt?",
+    "a3": "Beides. Wir werden das Wetter genau beobachten, aber bereitet euch darauf vor, Zeit draußen zu verbringen.",
+    "q4": "Bis wann muss ich zusagen?",
+    "a4": "13. April",
+    "q5": "Fragen oder Überraschungen?",
+    "a5": "Wenn du Fragen hast, die du uns lieber nicht direkt stellen möchtest—oder wenn du einfach eine Alternative bevorzugst—kannst du dich gerne an unsere Trauzeuginnen und Trauzeugen wenden. Sie helfen gerne und kennen alle wichtigen Details."
   },
   "contacts": {
     "title": "Fragen?",
