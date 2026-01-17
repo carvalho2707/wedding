@@ -24,38 +24,38 @@ export default function Timeline() {
           {/* Vertical line */}
           <div className="absolute left-1/2 -translate-x-1/2 top-0 bottom-0 w-px bg-sage-300" />
 
-          <div className="flex flex-col -space-y-3.5">
+          <div className="flex flex-col gap-6">
             {events.map((event, index) => {
               const isLeft = index % 2 === 0
 
               return (
-                <div key={index} className="relative grid grid-cols-[1fr_20px_1fr] items-center">
-                  {/* Left content */}
-                  {isLeft ? (
-                    <div className="text-right pr-6">
-                      <img src={event.icon} alt="" className="w-10 h-10 mb-1 inline-block" />
-                      <p className="text-sm font-medium text-sage-700">{event.time}</p>
-                      <p className="text-sage-500 text-base uppercase tracking-wider">{event.label}</p>
-                    </div>
-                  ) : (
-                    <div />
-                  )}
+                <div key={index} className="relative">
+                  {/* Dot on line - absolutely positioned at center */}
+                  <div className="absolute left-1/2 -translate-x-1/2 top-4 w-2.5 h-2.5 bg-sage-400 rounded-full z-10" />
 
-                  {/* Dot on line */}
-                  <div className="flex justify-center">
-                    <div className="w-2 h-2 bg-sage-400 rounded-full" />
+                  <div className="grid grid-cols-2 gap-5">
+                    {/* Left content */}
+                    <div className={`flex flex-col ${isLeft ? 'items-end' : ''}`}>
+                      {isLeft && (
+                        <>
+                          <img src={event.icon} alt="" className="w-10 h-10 mb-1" />
+                          <p className="text-sm font-medium text-sage-700">{event.time}</p>
+                          <p className="text-sage-500 text-base uppercase tracking-wider text-right">{event.label}</p>
+                        </>
+                      )}
+                    </div>
+
+                    {/* Right content */}
+                    <div className={`flex flex-col ${!isLeft ? 'items-start' : ''}`}>
+                      {!isLeft && (
+                        <>
+                          <img src={event.icon} alt="" className="w-10 h-10 mb-1" />
+                          <p className="text-sm font-medium text-sage-700">{event.time}</p>
+                          <p className="text-sage-500 text-base uppercase tracking-wider">{event.label}</p>
+                        </>
+                      )}
+                    </div>
                   </div>
-
-                  {/* Right content */}
-                  {!isLeft ? (
-                    <div className="text-left pl-6">
-                      <img src={event.icon} alt="" className="w-10 h-10 mb-1 inline-block" />
-                      <p className="text-sm font-medium text-sage-700">{event.time}</p>
-                      <p className="text-sage-500 text-base uppercase tracking-wider">{event.label}</p>
-                    </div>
-                  ) : (
-                    <div />
-                  )}
                 </div>
               )
             })}
