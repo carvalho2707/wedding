@@ -24,7 +24,7 @@ export default function Timeline() {
           {/* Vertical line */}
           <div className="absolute left-1/2 -translate-x-1/2 top-0 bottom-0 w-px bg-sage-300" />
 
-          <div className="flex flex-col gap-6">
+          <div className="flex flex-col gap-2">
             {events.map((event, index) => {
               const isLeft = index % 2 === 0
 
@@ -33,7 +33,7 @@ export default function Timeline() {
                   {/* Dot on line - absolutely positioned at center */}
                   <div className="absolute left-1/2 -translate-x-1/2 top-4 w-2.5 h-2.5 bg-sage-400 rounded-full z-10" />
 
-                  <div className="grid grid-cols-2 gap-5">
+                  <div className="grid grid-cols-2 gap-10">
                     {/* Left content */}
                     <div className={`flex flex-col ${isLeft ? 'items-end' : ''}`}>
                       {isLeft && (
