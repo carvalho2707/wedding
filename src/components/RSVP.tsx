@@ -38,7 +38,7 @@ export default function RSVP() {
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault()
 
-        if (!formData.name || !formData.attending) return
+        if (!formData.name || !formData.attending || !song.trim()) return
 
         setStatus('submitting')
 
@@ -146,6 +146,7 @@ export default function RSVP() {
                             <input
                                 type="text"
                                 id="song"
+                                required
                                 value={song}
                                 onChange={(e) => setSong(e.target.value)}
                                 placeholder={t('rsvp.songPlaceholder')}
@@ -290,7 +291,7 @@ export default function RSVP() {
                         {/* Submit */}
                         <button
                             type="submit"
-                            disabled={!formData.name || !formData.attending || status === 'submitting'}
+                            disabled={!formData.name || !formData.attending || !song.trim() || status === 'submitting'}
                             className="w-full bg-sage-500 hover:bg-sage-600 disabled:bg-sage-300 text-white py-3 rounded-lg font-medium transition-colors"
                         >
                             {status === 'submitting' ? t('rsvp.submitting') : t('rsvp.submit')}
