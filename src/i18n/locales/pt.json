@@ -58,8 +58,8 @@
     "submit": "Enviar RSVP",
     "submitting": "A enviar...",
     "success": "Obrigado! A tua resposta foi recebida.",
-    "error": "Algo correu mal. Por favor tenta novamente.",
-    "alreadySubmitted": "Já enviaste a tua resposta."
+    "submitAnother": "Enviar outra resposta",
+    "error": "Algo correu mal. Por favor tenta novamente."
   },
   "map": {
     "title": "Localização",

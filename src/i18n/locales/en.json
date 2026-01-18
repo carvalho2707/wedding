@@ -58,8 +58,8 @@
     "submit": "Send RSVP",
     "submitting": "Sending...",
     "success": "Thank you! Your RSVP has been received.",
-    "error": "Something went wrong. Please try again.",
-    "alreadySubmitted": "You've already submitted your RSVP."
+    "submitAnother": "Submit another response",
+    "error": "Something went wrong. Please try again."
   },
   "map": {
     "title": "Venue Location",

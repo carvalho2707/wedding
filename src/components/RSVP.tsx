@@ -56,7 +56,6 @@ export default function RSVP() {
                 console.log('RSVP Data (no backend configured):', submitData)
                 await new Promise(resolve => setTimeout(resolve, 1000))
                 setStatus('success')
-                localStorage.setItem('rsvp_submitted', 'true')
                 return
             }
 
@@ -70,25 +69,19 @@ export default function RSVP() {
             })
 
             setStatus('success')
-            localStorage.setItem('rsvp_submitted', 'true')
         } catch (error) {
             console.error('RSVP submission error:', error)
             setStatus('error')
         }
     }
 
-    const hasSubmitted = localStorage.getItem('rsvp_submitted') === 'true'
-
-    if (hasSubmitted && status !== 'success') {
-        return (
-            <div className="py-16 px-4">
-                <div className="max-w-md mx-auto text-center">
-                    <div className="bg-cream-200 rounded-lg p-8">
-                        <p className="text-sage-600">{t('rsvp.alreadySubmitted')}</p>
-                    </div>
-                </div>
-            </div>
-        )
+    const resetForm = () => {
+        setFormData({name: '', attending: '', dietary: ''})
+        setSong('')
+        setBringingPartner(false)
+        setPartnerName('')
+        setChildren([])
+        setStatus('idle')
     }
 
     if (status === 'success') {
@@ -103,6 +96,13 @@ export default function RSVP() {
                             </svg>
                         </div>
                         <p className="text-sage-700 font-medium">{t('rsvp.success')}</p>
+                        <button
+                            type="button"
+                            onClick={resetForm}
+                            className="mt-4 text-sage-500 hover:text-sage-700 text-sm font-medium"
+                        >
+                            {t('rsvp.submitAnother')}
+                        </button>
                     </div>
                 </div>
             </div>

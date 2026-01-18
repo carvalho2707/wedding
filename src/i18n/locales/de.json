@@ -58,8 +58,8 @@
     "submit": "RSVP absenden",
     "submitting": "Wird gesendet...",
     "success": "Danke! Deine Antwort wurde empfangen.",
-    "error": "Etwas ist schiefgelaufen. Bitte versuche es erneut.",
-    "alreadySubmitted": "Du hast bereits geantwortet."
+    "submitAnother": "Weitere Antwort senden",
+    "error": "Etwas ist schiefgelaufen. Bitte versuche es erneut."
   },
   "map": {
     "title": "Veranstaltungsort",

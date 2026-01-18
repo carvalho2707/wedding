@@ -32,10 +32,8 @@ function doPost(e) {
     ? children.map(c => `${c.name} (${c.ageGroup})`).join(', ')
     : '';
 
-  // Format songs as comma-separated list
-  const songsFormatted = data.songs && data.songs.length > 0
-    ? data.songs.join(', ')
-    : '';
+  // Song request
+  const songFormatted = data.song || '';
 
   sheet.appendRow([
     new Date(),              // Timestamp
@@ -49,7 +47,7 @@ function doPost(e) {
     children10plus,          // Children 10+ (full price)
     adults,                  // Adults count
     totalPrice,              // Total price (€)
-    songsFormatted,          // Song requests
+    songFormatted,           // Song request
     data.dietary || ''       // Dietary restrictions
   ]);
 
