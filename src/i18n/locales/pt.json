@@ -1,13 +1,13 @@
 {
   "nav": {
-    "rsvp": "RSVP",
+    "rsvp": "Confirmar Presença",
     "timeline": "Programa",
     "faq": "FAQ",
     "contacts": "Contactos"
   },
   "hero": {
     "invitation": "Estão convidados para celebrar o casamento de",
-    "rsvpButton": "RSVP"
+    "rsvpButton": "Confirmar Presença"
   },
   "info": {
     "date": "Data",
@@ -55,7 +55,7 @@
     "addSong": "Adicionar música",
     "dietary": "Restrições alimentares",
     "dietaryPlaceholder": "Alguma alergia ou necessidade alimentar?",
-    "submit": "Enviar RSVP",
+    "submit": "Enviar Confirmação",
     "submitting": "A enviar...",
     "success": "Obrigado! A tua resposta foi recebida.",
     "submitAnother": "Enviar outra resposta",
@@ -71,7 +71,7 @@
     "q1": "O que devo vestir?",
     "a1": "Adoraríamos ver todos elegantes e prontos para celebrar connosco. Pensem num visual festivo e cuidado, mas acima de tudo sintam-se vocês mesmos. Não existe dress code nem esquema de cores definidos, por isso escolham algo que vos faça sentir confiantes e confortáveis. Se gostam de cores vibrantes, este é o momento perfeito — ficaremos muito felizes com uma celebração alegre, colorida e cheia de personalidade.",
     "q2": "Posso levar acompanhante?",
-    "a2": "Claro que sim. Os parceiros são muito bem-vindos, assim como as crianças. Pedimos apenas que indiquem todos os convidados no momento de confirmar presença (RSVP), para nos ajudar na organização.",
+    "a2": "Claro que sim. Os parceiros são muito bem-vindos, assim como as crianças. Pedimos apenas que indiquem todos os convidados no formulário acima, para nos ajudar na organização.",
     "q3": "O casamento será no interior ou ao ar livre?",
     "a3": "Um pouco de ambos. Vamos acompanhar a previsão do tempo de perto, mas contem com alguns momentos ao ar livre.",
     "q4": "Até quando devo confirmar a presença?",
